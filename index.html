@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tran Minh Khang Phung | Portfolio</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/img/profile_picture.jpg" alt="Tran Minh Khang Phung" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Tran Minh Khang Phung">
+            Tran Minh Khang Phung
+            <span class="preferred-name">(Khang Phung)</span>
+          </h1>
+
+          <p class="title">Computer Networking & Infrastructure Engineering</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:minhkhang08122003@gmail.com" class="contact-link">minhkhang08122003@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+14085923025" class="contact-link">(408) 592-3025</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Status</p>
+
+              <time datetime="2026-02-09">Open to internship opportunities</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Menomonie, Wisconsin, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/tran-minh-khang-phung" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Khang-Phung-0812" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="./assets/Khang-Phung-Resume-2026.pdf" class="social-link" target="_blank" rel="noopener" aria-label="Resume">
+              <ion-icon name="document-text-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a junior student at the University of Wisconsin-Stout, pursuing a degree in Computer Networking &
+            Infrastructure Engineering. Over the past year, I have gained valuable experience in various IT roles,
+            including positions as an Engineering Associate Intern at Heartland Business Heartland, LLC, IT Help Desk
+            Technician, Computer Networking Teaching Assistant, and Infrastructure Services Student Technician.
+          </p>
+
+          <p>
+            These roles have allowed me to develop a strong foundation in technical support, network management, user
+            management and customer service.
+          </p>
+
+          <p>
+            I built a GNS3 MCP server that runs with Codex and an AWS Web UI integrated with the GNS3 API. I also have
+            a home server currently hosting LibreNMS, phpIPAM, Nextcloud, Vaultwarden, and GNS3/CML MCP server
+            services.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="git-network-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Networking</h4>
+
+                <p class="service-item-text">
+                  Working with Cisco devices, with knowledge of TCP/IP, VLANs, and routing protocols such as OSPF,
+                  EIGRP, and BGP.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="terminal-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Network Automation</h4>
+
+                <p class="service-item-text">
+                  Improving Python scripting and Ansible for network automation, and built a GNS3 MCP server to work
+                  with Codex for LLM-driven networking automation.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="cloud-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Infrastructure</h4>
+
+                <p class="service-item-text">
+                  Working with Microsoft Azure (Entra ID, Defender, and Teams), creating PowerShell scripts to
+                  automate Auto Attendant and Call Queue creation, and building an AWS-based web UI integrated with
+                  GNS3 API for centralized control and automation.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="server-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Linux Operations</h4>
+
+                <p class="service-item-text">
+                  Operating a home server hosting services on Ubuntu Server, including LibreNMS, phpIPAM, Nextcloud,
+                  Vaultwarden, and GNS3/CML MCP server.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Firewall Technology</h4>
+
+                <p class="service-item-text">
+                  Basic knowledge of firewall technologies, with hands-on experience using Palo Alto Next-Generation
+                  Firewall.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <a href="./assets/Khang-Phung-Resume-2026.pdf" class="resume-download-btn" target="_blank" rel="noopener">
+          Download Resume (PDF)
+        </a>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Wisconsin-Stout</h4>
+
+              <span>B.S. Computer Networking and Infrastructure Engineering</span>
+
+              <p class="timeline-text">
+                Focus areas include enterprise networking, infrastructure automation, and cloud telemetry.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CCNA</h4>
+
+              <span>Active</span>
+
+              <p class="timeline-text">
+                Cisco Certified Network Associate with verified routing, switching, and troubleshooting skills.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CCNP ENCOR</h4>
+
+              <span>In Progress</span>
+
+              <p class="timeline-text">
+                Ongoing preparation through lab-based enterprise networking and security operations practice.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Engineering Associate Intern - Heartland Business System, LLC</h4>
+
+              <span>May 2025 - August 2025</span>
+
+              <p class="timeline-text">
+                Supported Webex and Cisco Call Manager operations, contributed to VoIP migration, and helped deploy
+                5,000+ VoIP phones across district environments.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Infrastructure Services Student Technician - UW-Stout</h4>
+
+              <span>October 2024 - Present</span>
+
+              <p class="timeline-text">
+                Resolved 1,100+ IT service tickets, managed Teams/Entra ID operations, and automated Call Queue/Auto
+                Attendant workflows with PowerShell.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer Networking Teaching Assistant - UW-Stout</h4>
+
+              <span>September 2024 - Present</span>
+
+              <p class="timeline-text">
+                Supported networking labs, grading, and student coaching to improve hands-on application of routing and
+                infrastructure concepts.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Home Server Operations</h4>
+
+              <span>Self-hosted Services</span>
+
+              <p class="timeline-text">
+                Maintained Linux services with backup, monitoring, and secure remote access workflows.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Technical Skills</h3>
+
+          <div class="skills-list content-card technical-skills">
+            <ul class="technical-skills-list">
+              <li>Networking (Cisco, TCP/IP, VLANs, routing & switching configuration)</li>
+              <li>Network Automation (Ansible, Python)</li>
+              <li>Microsoft Azure (Microsoft Entra ID, Microsoft Defender)</li>
+              <li>Amazon Web Services</li>
+              <li>Microsoft Teams Admin Center</li>
+            </ul>
+
+            <ul class="technical-skills-list">
+              <li>VoIP Phones</li>
+              <li>PowerShell Scripting</li>
+              <li>Linux</li>
+              <li>Palo Alto</li>
+            </ul>
+          </div>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Automation</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Cloud</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Home Server</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Automation</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Cloud</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Home Server</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="automation">
+              <a href="https://github.com/Khang-Phung-0812/GNS3-MCP-Server" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/img/gns3-mcp.png" alt="GNS3 MCP Server" loading="lazy">
+                </figure>
+                <h3 class="project-title">GNS3 MCP Server</h3>
+                <p class="project-category">Automation</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="cloud">
+              <a href="https://github.com/Khang-Phung-0812/AWS_GNS3_Automation" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/img/AWS-GNS3-Architecture.png" alt="AWS GNS3 WebUI" loading="lazy">
+                </figure>
+                <h3 class="project-title">AWS GNS3 WebUI</h3>
+                <p class="project-category">Cloud</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="home server">
+              <a href="./assets/Vaultwarden%20Setup%20Guide.pdf" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/img/vaultwarden.png" alt="Vaultwarden" loading="lazy">
+                </figure>
+                <h3 class="project-title">Vaultwarden</h3>
+                <p class="project-category">Home Server</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="home server">
+              <a href="./assets/Nextcloud_Setup_Guide.pdf" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/img/nextcloud.png" alt="NextCloud" loading="lazy">
+                </figure>
+                <h3 class="project-title">NextCloud</h3>
+                <p class="project-category">Home Server</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="home server">
+              <a href="./assets/phpIPAM%20Setup%20Guide.pdf" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/img/phpipam.png" alt="PhPIPAM" loading="lazy">
+                </figure>
+                <h3 class="project-title">PhPIPAM</h3>
+                <p class="project-category">Home Server</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="home server">
+              <div>
+                <figure class="project-img">
+                  <img src="./assets/img/librenms.png" alt="LibreNMS" loading="lazy">
+                </figure>
+                <h3 class="project-title">LibreNMS</h3>
+                <p class="project-category">Home Server</p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="certifications">
+
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/FB8TWQXPER0LVPG9" target="_blank" rel="noopener">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/img/CCNA_cert.png" alt="CCNA Verification" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Cisco</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2026-02-09">Active</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">CCNA</h3>
+
+                  <p class="blog-text">
+                    Verified Cisco Certified Network Associate credential.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps?q=Menomonie,+Wisconsin&output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
